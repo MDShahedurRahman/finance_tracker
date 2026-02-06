@@ -17,3 +17,8 @@ class FinanceView:
         amount = float(input("Amount: "))
         date = input("Date (YYYY-MM-DD): ")
         return txn_type, category, amount, date
+
+    def display_transactions(self, txns):
+        for t in txns:
+            print(
+                f"{t.txn_id} | {t.txn_type} | {t.category} | ${t.amount} | {t.date}")
