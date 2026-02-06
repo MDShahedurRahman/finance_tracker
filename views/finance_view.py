@@ -22,3 +22,9 @@ class FinanceView:
         for t in txns:
             print(
                 f"{t.txn_id} | {t.txn_type} | {t.category} | ${t.amount} | {t.date}")
+
+    def display_summary(self, summary):
+        print("\n--- Monthly Summary ---")
+        print("Income:", summary["income"])
+        print("Expense:", summary["expense"])
+        print("Balance:", summary["balance"])
