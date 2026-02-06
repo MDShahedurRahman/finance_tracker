@@ -14,3 +14,7 @@ class TransactionRepository:
         with open(self.file_path, "r") as f:
             data = json.load(f)
             return [Transaction.from_dict(x) for x in data]
+
+    def save_all(self, transactions):
+        with open(self.file_path, "w") as f:
+            json.dump([t.to_dict() for t in transactions], f, indent=4)
