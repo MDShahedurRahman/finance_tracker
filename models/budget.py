@@ -8,3 +8,7 @@ class Budget:
             "category": self.category,
             "limit": self.limit
         }
+
+    @staticmethod
+    def from_dict(data):
+        return Budget(data["category"], data["limit"])
