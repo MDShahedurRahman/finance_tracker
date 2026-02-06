@@ -17,3 +17,13 @@ class Transaction:
             "amount": self.amount,
             "date": self.date
         }
+
+    @staticmethod
+    def from_dict(data):
+        return Transaction(
+            data["txn_id"],
+            data["txn_type"],
+            data["category"],
+            data["amount"],
+            data["date"]
+        )
