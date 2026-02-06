@@ -7,3 +7,6 @@ class FinanceView:
         print("3. Delete Transaction")
         print("4. Monthly Summary")
         print("0. Exit")
+
+    def get_choice(self):
+        return input("Enter choice: ")
