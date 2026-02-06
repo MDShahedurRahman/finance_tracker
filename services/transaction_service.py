@@ -12,3 +12,8 @@ class TransactionService:
 
     def list_transactions(self):
         return self.repo.load_all()
+
+    def delete_transaction(self, txn_id):
+        txns = self.repo.load_all()
+        txns = [t for t in txns if t.txn_id != txn_id]
+        self.repo.save_all(txns)
