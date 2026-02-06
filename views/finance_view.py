@@ -10,3 +10,10 @@ class FinanceView:
 
     def get_choice(self):
         return input("Enter choice: ")
+
+    def get_transaction_input(self):
+        txn_type = input("Type (income/expense): ")
+        category = input("Category: ")
+        amount = float(input("Amount: "))
+        date = input("Date (YYYY-MM-DD): ")
+        return txn_type, category, amount, date
