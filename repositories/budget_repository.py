@@ -14,3 +14,7 @@ class BudgetRepository:
         with open(self.file_path, "r") as f:
             data = json.load(f)
             return [Budget.from_dict(x) for x in data]
+
+    def save_all(self, budgets):
+        with open(self.file_path, "w") as f:
+            json.dump([b.to_dict() for b in budgets], f, indent=4)
