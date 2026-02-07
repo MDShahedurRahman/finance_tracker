@@ -156,3 +156,22 @@ This ensures data remains available across application runs.
 - Recurring transaction support
 
 ---
+
+## 📄 .gitignore (Recommended)
+
+```
+__pycache__/
+*.pyc
+data/finance_data.json
+.env
+.idea/
+.vscode/
+```
+
+---
+
+## 👨‍💻 Author
+
+**Md Shahedur Rahman**  
+Master’s in Computer Science  
+Data Engineering | Python | Java | Distributed Systems
