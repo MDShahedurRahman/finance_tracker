@@ -33,3 +33,7 @@ class FinanceController:
         txn_id = len(self.txn_service.list_transactions()) + 1
         txn = Transaction(txn_id, txn_type, category, amount, date)
         self.txn_service.add_transaction(txn)
+
+    def view_transactions_flow(self):
+        txns = self.txn_service.list_transactions()
+        self.view.display_transactions(txns)
