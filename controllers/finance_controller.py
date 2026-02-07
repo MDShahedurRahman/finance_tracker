@@ -41,3 +41,8 @@ class FinanceController:
     def delete_transaction_flow(self):
         txn_id = int(input("Enter transaction ID to delete: "))
         self.txn_service.delete_transaction(txn_id)
+
+    def monthly_summary_flow(self):
+        txns = self.txn_service.list_transactions()
+        summary = self.analytics.monthly_summary(txns)
+        self.view.display_summary(summary)
