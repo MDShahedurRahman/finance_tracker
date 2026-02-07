@@ -58,3 +58,18 @@ finance_tracker/
 ```
 
 ---
+
+## ⚙️ Installation
+
+### Prerequisites
+- Python 3.8 or higher
+
+### Setup
+
+```bash
+git clone https://github.com/yourusername/personal-finance-tracker.git
+cd personal-finance-tracker
+python main.py
+```
+
+---
