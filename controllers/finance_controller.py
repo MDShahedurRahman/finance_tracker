@@ -5,3 +5,8 @@ from views.finance_view import FinanceView
 
 
 class FinanceController:
+
+    def __init__(self):
+        self.view = FinanceView()
+        self.txn_service = TransactionService()
+        self.analytics = AnalyticsService()
