@@ -145,3 +145,14 @@ This ensures data remains available across application runs.
 - Verify savings calculations
 
 ---
+
+## 📌 Future Enhancements
+
+- SQLite or PostgreSQL backend
+- REST API using FastAPI
+- Web UI dashboard
+- Data visualization
+- CSV import/export
+- Recurring transaction support
+
+---
