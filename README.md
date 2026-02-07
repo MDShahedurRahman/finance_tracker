@@ -123,3 +123,15 @@ This ensures data remains available across application runs.
 
 ---
 
+## 🧠 Concepts Demonstrated
+
+- MVC Architecture
+- Clean Code Principles
+- Separation of Concerns
+- Business Logic Layering
+- JSON Persistence
+- CLI Application Design
+- Budgeting & Financial Analytics
+- Git Commit Discipline
+
+---
