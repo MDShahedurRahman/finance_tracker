@@ -98,3 +98,16 @@ Menu options include:
 ```
 
 ---
+
+## 📊 Example Workflow
+
+- Add salary and side income
+- Record daily expenses
+- Assign categories (Rent, Food, Travel, Utilities)
+- Set monthly budgets
+- Review monthly spending
+- Track savings and overspending
+- Adjust budget based on analytics
+
+---
+
