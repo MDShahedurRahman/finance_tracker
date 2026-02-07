@@ -157,19 +157,6 @@ This ensures data remains available across application runs.
 
 ---
 
-## 📄 .gitignore (Recommended)
-
-```
-__pycache__/
-*.pyc
-data/finance_data.json
-.env
-.idea/
-.vscode/
-```
-
----
-
 ## 👨‍💻 Author
 
 **Md Shahedur Rahman**  
