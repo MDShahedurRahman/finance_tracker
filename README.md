@@ -24,3 +24,37 @@ This is a **portfolio-grade project** designed to demonstrate clean architecture
 - CLI-driven user interaction
 
 ---
+
+## 🏗 Project Architecture (MVC)
+
+```
+finance_tracker/
+│
+├── main.py
+│
+├── controllers/
+│   └── finance_controller.py
+│
+├── models/
+│   ├── transaction.py
+│   └── category.py
+│
+├── services/
+│   └── finance_service.py
+│
+├── repositories/
+│   └── finance_repository.py
+│
+├── views/
+│   └── finance_view.py
+│
+├── utils/
+│   ├── date_utils.py
+│   ├── validation_utils.py
+│   └── calculation_utils.py
+│
+└── data/
+    └── finance_data.json
+```
+
+---
