@@ -81,3 +81,20 @@ Run the application:
 ```bash
 python main.py
 ```
+
+Menu options include:
+
+```
+1. Add Income
+2. Add Expense
+3. View All Transactions
+4. Update Transaction
+5. Delete Transaction
+6. Set Monthly Budget
+7. View Monthly Summary
+8. Budget vs Actual Report
+9. Savings Overview
+0. Exit
+```
+
+---
