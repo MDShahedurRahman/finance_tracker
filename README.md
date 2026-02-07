@@ -135,3 +135,13 @@ This ensures data remains available across application runs.
 - Git Commit Discipline
 
 ---
+
+## 🧪 Testing Suggestions
+
+- Restart app to verify persistence
+- Add edge-case expenses
+- Test budget overspend scenarios
+- Validate monthly summaries
+- Verify savings calculations
+
+---
