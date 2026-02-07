@@ -111,3 +111,15 @@ Menu options include:
 
 ---
 
+## 💾 Data Storage
+
+All financial data is persisted in:
+
+```
+data/finance_data.json
+```
+
+This ensures data remains available across application runs.
+
+---
+
